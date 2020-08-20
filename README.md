@@ -2,22 +2,22 @@
 
 This project is creating a mulitpage website with a group members, As for this current project out main idea will be either different types of books, food recipes umong other things that will be mentioned in the future as my partner and I have not choosen a solid main idea yet. So far the website will have four other webpages including the homepage, the number will change depending on the idea choosen. According to the assignment there are three parts to the webpage: tier one, tier two, and tier three.
 
-#Getting Started
+# Getting Started
 
-###Tier One:
+### Tier One:
 Multi-page website (minimum 3)
 Navigation bar with functioning links
 User-friendly website
 Placeholder content is acceptable
 Consistent design
 
-###Tier Two:
+### Tier Two:
 Everything in Tier One
 Utilize JavaScript and/or jQuery for DOM manipulation
 Incorporate interactive content/elements
 Meaningful content
 
-###Tier Three:
+### Tier Three:
 Everything in Tier Two
 Incorporate a technology that we haven’t used in class (get approval first)
 Utilize a public API to include external content that is relevant to your site
