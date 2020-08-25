@@ -180,31 +180,7 @@ p {
   background: #c2c2a3;
   text-align: center;
   margin: auto;
-  margin-top: 200px;
-}
-
-#story {
-  border: 1px solid blue;
-  /* background-color: lightblue; */
-  background-color: #ffbf80;
-
-  padding: 10px;
-}
-
-#backToStart {
-  background: #f2ffcc;
-}
-
-#webTitle {
-  text-align: center;
-  background: #c2c2a3;
-  width: 500px;
-  margin-left: 500px;
-}
-
-#storyName {
-  background: #ffccdd;
-  width: 150px;
+  margin-top: 40px;
 }
 
 .homepage {
@@ -367,43 +343,10 @@ p {
 #storyLink4:hover {
   background-color: #ffcccc;
 }
-
 #footer {
   background: #c2c2a3;
   text-align: center;
   margin-top: 400px;
-}
-
-#story {
-  border: 1px solid blue;
-  /* background-color: lightblue; */
-  background-color: #ffbf80;
-
-  padding: 10px;
-}
-
-#backToStart {
-  background: #f2ffcc;
-}
-
-#webTitle {
-  text-align: center;
-  background: #c2c2a3;
-  width: 500px;
-  margin-left: 500px;
-}
-
-#storyName {
-  background: #ffccdd;
-  width: 150px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
 }
 
 li {
