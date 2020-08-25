@@ -6,19 +6,21 @@
     <title>Story Time</title>
 
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="reset.css"> -->
   </head>
 
-  <body>
+  <body style="margin:0";>
     <div class="homepage">
       <h1 id="header">Story Time</h1>
       <!-------------------------------->
-        
+      <div id = "list">
       <ul class="nav" style="list-style-type: none;">
         <li id="title">Home</li>
         <li id="about-link">About</li>
         <li id="books">Genre</li>
         <li id="issues">Issues</li>
       </ul>
+    </div>
    
 
   <!-- <div class="nav">
@@ -29,7 +31,7 @@
   </div>   -->
    
 
-<div class="main">
+<!-- <div class="main"> -->
       <div id="about">
         <h3 id="description">About Us</h3>
         <p><strong><h3>
@@ -50,12 +52,14 @@
           of the page and give feedback on your experience.
 
         </p>
+        <div id="buttons">
         <a id="link" href="ranStory1.html">
         <button id="storyLink1">click for story one</button>
       </a>
       <a id="link" href="ranStory2.html">
         <button id="storyLink2">click for story two</button>
       </a>
+      </div>
 <!-- ------------displaying the story here--------------------------->
 
 <p id= " display" ></p>
@@ -80,7 +84,7 @@
       <div id="footer">
         Published 2020
       </div>
-    </div>
+    <!-- </div> -->
 
     <script src="main.js"></script>
   </body>
