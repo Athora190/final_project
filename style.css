@@ -343,7 +343,6 @@ p {
 #storyLink4:hover {
   background-color: #ffcccc;
 }
-
 #footer {
   background: #c2c2a3;
   text-align: center;
@@ -357,6 +356,8 @@ ul {
   overflow: hidden;
   background-color: #333333;
 }
+
+
 
 li {
   float: left;
