@@ -1,5 +1,213 @@
+.homepage {
+  background-image: url("bb.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  margin: auto;
+  overflow: hidden;
+}
+
+#about {
+  margin: auto;
+  text-align: center;
+}
+
+#storyGenre {
+  text-align: center;
+}
 
 
+#header {
+  text-align: center;
+  background: #c2c2a3;
+  width: auto;
+  margin: auto;
+}
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav {
+  margin: auto;
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#description {
+  /* margin-left: 80px; */
+  font-size: 25px;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Do Hyeon", sans-serif;
+}
+#storyDescription {
+  width: auto;
+  background-color: #e6ffff;
+  background-position: center;
+  margin: auto;
+  margin-top: 20%;
+  color: black;
+  /* padding: 10px 0px 10px 0px; */
+  text-align: center;
+  border-radius: 10;
+}
+
+#Genre1 {
+  background: #e6ffe6;
+  background-position: center;
+  width: auto;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: -40px;
+  margin: auto;
+}
+
+#Genre2 {
+  background: #e6ffe6;
+  background-position: center;
+  width: auto;
+  text-align: center;
+  border-radius: 10px;
+
+  margin: auto;
+}
+
+#storyDescription2 {
+  width: auto;
+  background-color: #e6ffff;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 30%;
+  color: black;
+  /* padding: 10px 0px 10px 0px; */
+  text-align: center;
+  border-radius: 10;
+}
+
+#storyLink1 {
+  background-color: darkgrey;
+  color: black;
+  /*padding: 15px 15px; */
+  border: none;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  opacity: 1;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  margin: auto;
+  margin-bottom: -30px;
+  border-radius: 10px;
+}
+
+#buttons {
+  margin: auto;
+  margin-top: 70px;
+}
+#storyLink2 {
+  background-color: darkgrey;
+  color: black;
+  /*padding: 15px 15px; */
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  opacity: 0.9;
+  margin: auto;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+#storyLink3 {
+  background-color: darkgrey;
+  color: black;
+  /*padding: 15px 15px; */
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  opacity: 0.9;
+  margin: auto;
+  margin-top: -50px;
+  /* margin-left: 30px; */
+  border-radius: 10px;
+}
+
+#storyLink4 {
+  background-color: darkgrey;
+  color: black;
+  /*padding: 15px 15px; */
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  opacity: 0.9;
+  margin: auto;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+#storyLink1:hover {
+  background-color: green;
+}
+
+#storyLink2:hover {
+  background-color: green;
+}
+
+#storyLink3:hover {
+  background-color: #ffcccc;
+}
+
+#storyLink4:hover {
+  background-color: #ffcccc;
+}
+
+#footer {
+  background: #c2c2a3;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+#story {
+  border: 1px solid blue;
+  /* background-color: lightblue; */
+  background-color: #ffbf80;
+
+  padding: 10px;
+}
+
+#backToStart {
+  background: #f2ffcc;
+}
+
+#webTitle {
+  text-align: center;
+  background: #c2c2a3;
+  width: 500px;
+  margin-left: 500px;
+}
+
+#storyName {
+  background: #ffccdd;
+  width: 150px;
+}
+=======
 .homepage
 {
     background-image:url("bb.jpg");

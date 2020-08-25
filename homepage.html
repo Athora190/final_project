@@ -6,12 +6,23 @@
     <title>Story Time</title>
 
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="reset.css"> -->
   </head>
 
-  <body>
+  <body style="margin: 0;" ;>
     <div class="homepage">
       <h1 id="header">Story Time</h1>
       <!-------------------------------->
+      <div id="list">
+        <ul class="nav" style="list-style-type: none;">
+          <li id="title">Home</li>
+          <li id="about-link">About</li>
+          <li id="books">Genre</li>
+          <li id="issues">Issues</li>
+        </ul>
+      </div>
+
+      <!-- <div class="nav">
         
   <!--   <ul class="nav" style="list-style-type: none;">
         <li id="title">Home</li>
@@ -20,75 +31,73 @@
         <li id="issues">Issues</li>
       </ul> --> 
 
-    <ul> 
-      <li><a href="#home">Home</a></li>
-      <li><a href="#home">About</a></li>
-      <li><a href="#home">Genre</a></li>
-      <li><a href="#home">Issues</a></li>
-    </ul>
+    
    
 
   <!-- <div class="navee">
+
     <a class="active" href="#home">Home</a>
     <a href="#news">About</a>
     <a href="#contact">Genre</a>
     <a href="#about">Issues</a>
   </div>   -->
-   
 
-<div class="main">
+      <!-- <div class="main"> -->
       <div id="about">
         <h3 id="description">About Us</h3>
-        <p><strong><h3>
-         This website is about finding you story preference if you don't know what genra your into.
-         This is a free trial based website to ready as many stories as you please. When you are finished reading you may comment at the bottom of the screen you thoughts and 
-         feedback. If you are having am issue please click the issues link above at state you complaint.
-         Thank you so such for choosing your website please come again soon. Happy Story Time.   
-        </h3> </strong></p>
+        <p>
+          This website is about finding you story preference if you don't know
+          what genra your into. This is a free trial based website to ready as
+          many stories as you please. When you are finished reading you may
+          comment at the bottom of the screen you thoughts and feedback. If you
+          are having am issue please click the issues link above at state you
+          complaint. Thank you so such for choosing your website please come
+          again soon. Happy Story Time.
+        </p>
       </div>
       <div id="storyGenre">
         <h1 id="Random-story">Story generator</h1>
         <h2 id="Genre1">Drama, Action</h2>
         <p id="storyDescription">
-          This section is a collection of stories based on the genre of action and drama. 
-          When you click on the button a random story with selected topics 
-          will appear to you and you my begin reading automatically.
-          when you are finished ready you may comment on the bottom 
-          of the page and give feedback on your experience.
-
+          This section is a collection of stories based on the genre of action
+          and drama. When you click on the button a random story with selected
+          topics will appear to you and you my begin reading automatically. when
+          you are finished ready you may comment on the bottom of the page and
+          give feedback on your experience.
         </p>
-        <a id="link" href="ranStory1.html">
-        <button id="storyLink1">click for story one</button>
-      </a>
-      <a id="link" href="ranStory2.html">
-        <button id="storyLink2">click for story two</button>
-      </a>
-<!-- ------------displaying the story here--------------------------->
+        <div id="buttons">
+          <a id="link" href="ranStory1.html">
+            <button id="storyLink1">click for story one</button>
+          </a>
+          <a id="link" href="ranStory2.html">
+            <button id="storyLink2">click for story two</button>
+          </a>
+        </div>
+        <!-- ------------displaying the story here--------------------------->
 
-<p id= " display" ></p>
-      
+        <p id=" display"></p>
+
         <h2 id="Genre2">Adventure, Mystery</h2>
         <p id="storyDescription2">
-          Like the action and drama section upon clicking the button below 
-          a random story based on the genres of adventure and mystery.
-          when you are finished ready you may comment on the bottom of 
-          the page and give feedback on your experience.
-
-      </p>
-      <a id="link" href="ranStory3.html">
-      <button id="storyLink3">click for story one</button>
-    </a>
-    <a href="ranStory4.html">
-      <button id="storyLink4">click for story two</button>
-    </a>
-      <br>
-
-    </div>      
+          Like the action and drama section upon clicking the button below a
+          random story based on the genres of adventure and mystery. when you
+          are finished ready you may comment on the bottom of the page and give
+          feedback on your experience.
+        </p>
+        <a id="link" href="ranStory3.html">
+          <button id="storyLink3">click for story one</button>
+        </a>
+        <a href="ranStory4.html">
+          <button id="storyLink4">click for story two</button>
+        </a>
+        <br />
+      </div>
       <div id="footer">
         Published 2020
       </div>
-    </div>
+      <!-- </div> -->
 
-    <script src="main.js"></script>
+      <script src="main.js"></script>
+    </div>
   </body>
 </html>
