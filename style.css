@@ -34,14 +34,8 @@
   overflow: hidden;
 }
 
-ul .nav {
+.nav {
   margin: auto;
-  text-align: center;
-  color: white;
-}
-
-.navee {
-  margin: 1px;
   float: center;
   color: #f2f2f2;
   text-align: center;
@@ -52,21 +46,26 @@ ul .nav {
 
 #description {
   /* margin-left: 80px; */
+  font-size: 25px;
   text-align: center;
-  width: 500px;
-  margin-left: 500px;
+  width: auto;
+  margin: auto;
 }
 
+p {
+  font-size: 20px;
+  font-family: "Do Hyeon", sans-serif;
+}
 #storyDescription {
-  width: 500px;
+  width: auto;
   background-color: #e6ffff;
   background-position: center;
-  /*  margin: auto;*/
+  margin: auto;
+  margin-top: 20%;
   color: black;
   /* padding: 10px 0px 10px 0px; */
   text-align: center;
   border-radius: 10;
-  margin-left: 500px;
 }
 
 #Genre1 {
@@ -85,19 +84,20 @@ ul .nav {
   width: auto;
   text-align: center;
   border-radius: 10px;
-  /* margin-top: 20px; */
+
   margin: auto;
 }
 
 #storyDescription2 {
-  width: 500px;
+  width: auto;
   background-color: #e6ffff;
-  /*  margin: auto;*/
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 30%;
   color: black;
   /* padding: 10px 0px 10px 0px; */
   text-align: center;
   border-radius: 10;
-  margin-left: 500px;
 }
 
 #storyLink1 {
@@ -109,6 +109,8 @@ ul .nav {
   width: auto;
   height: 40px;
   opacity: 1;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
   margin: auto;
   margin-bottom: -30px;
   border-radius: 10px;
@@ -123,6 +125,7 @@ ul .nav {
   color: black;
   /*padding: 15px 15px; */
   border: none;
+  font-size: 15px;
   cursor: pointer;
   width: auto;
   height: 40px;
@@ -137,12 +140,13 @@ ul .nav {
   color: black;
   /*padding: 15px 15px; */
   border: none;
+  font-size: 15px;
   cursor: pointer;
   width: auto;
   height: 40px;
   opacity: 0.9;
   margin: auto;
-  margin-top: 50px;
+  margin-top: -50px;
   /* margin-left: 30px; */
   border-radius: 10px;
 }
@@ -152,6 +156,7 @@ ul .nav {
   color: black;
   /*padding: 15px 15px; */
   border: none;
+  font-size: 15px;
   cursor: pointer;
   width: auto;
   height: 40px;
