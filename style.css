@@ -1,9 +1,11 @@
 .homepage {
-  background-image: url("bb.jpg");
+  display: block;
+  background-image: url("images/Theodor_Fontane_Der_Stechlin.jpg");
   background-position: center;
   background-size: cover;
   text-align: left;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
 }
 
