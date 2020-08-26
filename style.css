@@ -102,7 +102,25 @@ p {
   text-align: center;
   border-radius: 10;
 }
+#comment {
+  margin: auto;
 
+  font-size: 25px;
+}
+#comm {
+  height: 80px;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 50px;
+}
+#submit {
+  margin-top: 20px;
+  margin-left: 150px;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border-radius: 8px;
+}
 #storyLink1 {
   background-color: darkgrey;
   color: black;
